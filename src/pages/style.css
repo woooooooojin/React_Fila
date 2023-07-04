@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home_title{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.home_wrap{
+    padding: 0 20px;
+}
+
+
+.category_tit{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+/***********cart*********/
+
+.cart_wrap{
+}
+.cart_wrap h4{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    /* color: #f56f98; */
+}
+.cart_wrap ul{
+    
+}
+.cart_wrap ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.cartlist{
+    border-bottom: 1px solid #ccc;
+
+}
+.maplist{
+    margin-bottom: 50px;
+}
+.cart_idx{
+    width: 5%;
+}
+.cart_id{
+    width: 5%;
+}
+.cart_img{
+    width: 20%;
+}
+.cart_img img{
+    width: 50%;
+}
+.cart_title{
+    width: 20%;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.cart_title span{
+    color: #002053;
+    font-size: 20px;
+}
+.cart_price{
+    width: 20%;
+}
+.cart_count{
+    width: 10%;
+}
+.cart_btns{
+    width: 10%;
+}
+.cart_delete{
+    width: 10%;
+}
+.cart_wrap button{
+    width: 70px;
+    height: 35px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    margin-right: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+    border-radius: 10px;
+    transition: .3s;
+}
+.cart_wrap button:hover{
+    background-color: #002053;
+    color: #fff;
+}
+.cart_wrap button:nth-child(2){margin-right: 0;}
+.cart_tit{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+.cart_tit li{
+    height: 30px;
+    border-right: 1px solid #ccc;
+}
+.cart_tit li:nth-child(1){
+    width: 5%;
+}
+.cart_tit li:nth-child(2){
+    width: 5%;
+}
+.cart_tit li:nth-child(3){
+    width: 40%;
+}
+.cart_tit li:nth-child(4){
+    width: 20%;
+}
+.cart_tit li:nth-child(5){
+    width: 10%;
+}
+.cart_tit li:nth-child(6){
+    width: 10%;
+}
+.cart_tit li:nth-child(7){
+    width: 10%;
+    border-right:  0;
+}
+
+.total_price{
+    font-size: 28px;
+    text-align: right;
+    padding-right: 50px;
+}
+.order_btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #002053;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    transition: .3s;
+    border: 0;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.order_btn:hover,
+.all_del:hover{
+    box-shadow: 0 0 20px #002053;
+}
+.all_del{
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #002053;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.total_btn_wrap{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*********shirts************/
+
+.itembox_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.item_box{
+    width: calc(20% - 24px);
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.item_box:nth-child(5n){
+    margin-right: 20px;
+}
+.item_img_wrap{
+    overflow: hidden;
+    border-radius: 20px;
+    font-size: 0;
+}
+.item_box img{
+    width: 100%;
+    border-radius: 20px;
+    transition: .5s;
+}
+.item_box img:hover{
+   transform: scale(1.2);
+}
+.item_tit{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.item_tag{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.item_price{
+    text-align: right;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.item_opt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item_opt input{
+    display: none;
+}
+.item_opt label{
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #ccc;
+}
+
+/**********detail shirts**********/
+
+.detail_wrap{
+    width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+.detail_left{
+    width: 550px;
+    margin-right: 100px;
+    /* border: 1px solid #ccc; */
+}
+.detail_left img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.detail_right{
+    width: 550px;
+    padding: 0 20px;
+}
+.detail_tit{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.detail_desc{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #666;
+}
+.detail_price{
+    text-align: right;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.detail_option{
+    margin-top: 50px;
+}
+.opt_wrap{
+    display: flex;
+    justify-content: space-around;
+
+}
+.detail_option input{
+    display: none;
+}
+.detail_option label{
+    width: 130px;
+    height: 50px;
+    border: 1px solid #ccc;
+    transition: .5s;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+}
+
+.delivery_desc{
+    font-size: 16px;
+    margin-top: 60px;
+}
+.delivery_desc li{
+    margin-bottom: 10px;
+    color: #666;
+}
+.delivery_desc li:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.review_wrap{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    font-size: 0;
+}
+.review_box_img{
+    width: 30%;
+    font-size: 0;
+}
+.review_box_img img{
+    width: 100%;
+    height:  auto;
+}
+.review_box{
+    width: calc(70% - 20px);
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.review_box input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    border: 0;
+}
+.review_box textarea{
+    resize: none;
+    width: 100%;
+    height: 300px;
+    outline: none;
+    padding: 10px;
+}
+.review_submit{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: #002053;
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn_disable{
+    background-color: #ccc;
+    cursor:not-allowed;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: block;
+    border-radius: 10px; 
+    margin: 20px auto;
+}
+.review_list_box{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.review_list_box li{
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    
+}
+.review_list_box li .li_span{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}

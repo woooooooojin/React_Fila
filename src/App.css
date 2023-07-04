@@ -1,0 +1,17 @@
+/* .App{
+  width: 1200px;
+  margin: 0 auto;
+} */
+
+.top_btn{
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  background-color: #002053;
+  position: fixed;
+  bottom: 50px;
+  right: 0px;
+  z-index: 9999;
+  border-radius: 50%;
+  border: 0;
+}
