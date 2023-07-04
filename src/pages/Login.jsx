@@ -15,7 +15,7 @@ export default function Login() {
       pw:'kevin123',
     },
     {
-      id:'soojsin',
+      id:'soonsin',
       pw:'soonsin123',
     },
   ]
