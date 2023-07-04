@@ -31,7 +31,7 @@ export default function Login() {
     navigate('/join');
   };
 
-  let i 
+  
 
   return (
     <div>

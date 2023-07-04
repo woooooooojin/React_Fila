@@ -33,7 +33,7 @@ export default function Join() {
       if(emailCheck(joinMail)==false) { 
         setMailMsg('이메일 형식에 맞지 않습니다.')
         return;
-      }else{ // 맞을 경우 출력
+      }else{ 
         setMailMsg('이메일 형식에 적합합니다.')
       }
     }
@@ -48,7 +48,7 @@ export default function Join() {
       if(idCheck(joinId)===false) { 
         setIdMsg('아이디 형식에 맞지 않습니다.')
         return;
-      }else{ // 맞을 경우 출력
+      }else{ 
         setIdMsg('아이디 형식에 적합합니다.')
       }
     }
@@ -65,7 +65,7 @@ export default function Join() {
       if(pwCheck(joinPw)==false) { 
         setPwMsg('비밀번호 형식에 맞지않습니다');
         return;
-      }else{ // 맞을 경우 출력
+      }else{ 
         setPwMsg('비밀번호 형식에 적합합니다');
       }
     }
