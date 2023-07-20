@@ -74,20 +74,14 @@ export default function DetailTennis(props) {
 
 
         //리뷰삭제
-        const removeComment = (id) => {
-            return setReviewList(reviewList.filter((comment) => comment.id == id)) ;
-        };
-        // !== console로는 담기긴하는데,,,
-        //console.log(reviewList.filter((comment) => comment.id !== id))
-
-
-        //   // user.id와 id가 일치하지 않는 원소만 추출해서 새로운 배열을 만듬
-        //   // user.id === id인 원소만 제거함. true인 원소들만 반환,,,
-
-        // const onRemove = (id) => {
-        //   let remove = reviewList.filter((review) => review.id !== id);
-        //   setReviewList(remove)
-        // };
+        const removeComment = (idx) => {
+  
+ 
+            let copyReviewList = [...reviewList];
+            copyReviewList.splice(idx, 1);
+             
+            setReviewList(copyReviewList);
+          };
 
 
   return (
