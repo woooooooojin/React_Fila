@@ -71,7 +71,7 @@ export default function Tennis() {
             return(
 
               <motion.div className="item_box" key={idx} variants={item}>
-                <Link to={`/detailtennis/${idx}`}>
+                <Link to={`/tennis/detailtennis/${idx}`}>
                   <div className="item_img_wrap">
                     <img src={ten.image} alt="img"/>
                   </div>

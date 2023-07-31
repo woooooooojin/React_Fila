@@ -72,7 +72,7 @@ export default function Shirts() {
             return(
 
               <motion.div className="item_box" key={idx} variants={item}>
-                <Link to={`/detailshirts/${idx}`}>
+                <Link to={`/shirts/detailshirts/${idx}`}>
                   <div className="item_img_wrap">
                     <img src={shirt.image} alt="img"/>
                   </div>

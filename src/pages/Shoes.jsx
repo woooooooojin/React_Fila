@@ -74,7 +74,7 @@ export default function Shoes() {
             return(
 
               <motion.div className="item_box" key={idx} variants={item}>
-                <Link to={`/detailshoes/${idx}`}>
+                <Link to={`/shoes/detailshoes/${idx}`}>
                   <div className="item_img_wrap">
                     <img src={shoes.image} alt="img"/>
                   </div>
